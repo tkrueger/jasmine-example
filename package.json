@@ -1,0 +1,27 @@
+{
+    "name": "jasmine-example",
+
+    "description": "Demonstrating usage of guard and jasmine-node for node applications",
+
+    "contributors": [{
+        "name": "Thorsten Krüger",
+        "email": "thorsten@levelupanalytics.com"
+    }],
+
+    "version": "0.0.1",
+
+    "main": "",
+
+    "scripts": {
+        "test" : "jasmine-node --coffee spec"
+    },
+
+    "private": true,
+
+    "dependencies": {
+        "coffee-script" : "1.3.3"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.0.26"
+    }
+}
