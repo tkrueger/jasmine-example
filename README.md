@@ -43,7 +43,7 @@ Using libnotify
 On my machine, I got an error each time jasmine wanted to notify me of the results. This was because "gntp" wasn't installed.
 Easily rectified by adding a line to the Guardfile that tells Guard to use libnotify instead:
 
-notification :libnotify, :timeout => 5, :transient => true, :append => false
+    notification :libnotify, :timeout => 5, :transient => true, :append => false
 
 This is just one example of how versatile Guard is. You'll learn to love it.
 
